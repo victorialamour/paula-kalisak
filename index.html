@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paula Kalisak | Maquiagem e Penteado para Noivas</title>
+<meta name="description" content="Maquiagem e penteado para noivas: sua melhor versão, ainda sendo você mesma.">
+<meta name="robots" content="noindex">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Paula Kalisak | Maquiagem e Penteado para Noivas">
+<meta property="og:description" content="Maquiagem e penteado para noivas: sua melhor versão, ainda sendo você mesma.">
+<meta name="twitter:card" content="summary">
+
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23111111'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' fill='%23FFFFFF' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+<!-- TROCAR pelo favicon oficial -->
+
+
+<!-- Open Graph -->
+
+<!-- Ficha do negócio para o Google -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&family=Ms+Madi&family=Pinyon+Script&family=Homemade+Apple&family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --white:#FFFFFF;
+    --off:#F6F6F5;       /* fundo alternado, quase branco */
+    --line:#DDDDDB;      /* linhas finas */
+    --gray:#6F6F6F;      /* rótulos e títulos grandes (contraste mínimo 4,5:1 no branco) */
+    --text-soft:#5E5E5E;
+    --text:#1E1E1E;
+    --black:#111111;
+
+    --serif:'Cormorant Garamond', 'Times New Roman', serif;
+    --sans:'Jost', 'Helvetica Neue', Arial, sans-serif;
+    --hand:'Ms Madi', cursive;
+    --swash:'Pinyon Script', cursive;   /* só nos G do nome no topo */
+
+    --gutter:20px;
+    --max:1180px;
+    --ease:cubic-bezier(.22,.61,.36,1);
+  }
+
+  *,*::before,*::after{box-sizing:border-box}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--white);color:var(--text);
+    font-family:var(--sans);font-weight:300;font-size:15px;line-height:1.75;
+    -webkit-font-smoothing:antialiased;overflow-x:hidden;
+  }
+  img{max-width:100%;display:block}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  /* Trechos que dependem da Nina: amarelo pra ninguém publicar sem ver */
+  .todo{background:#FFF1A8;color:#1E1E1E;padding:2px 6px;font-size:.92em}
+  a{color:inherit}
+  h1,h2,h3{margin:0;font-family:var(--serif);font-weight:400;line-height:1.15;color:var(--black)}
+  p{margin:0 0 1em}
+  .wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 var(--gutter)}
+  section{padding:90px 0;position:relative}
+  section[id]{scroll-margin-top:70px}
+  .center{text-align:center}
+
+  /* ---------- Tipografia ---------- */
+  .label{
+    display:block;font-family:var(--sans);font-weight:400;font-size:10.5px;
+    letter-spacing:.26em;text-transform:uppercase;color:var(--gray);margin-bottom:16px;
+  }
+  .title{font-size:clamp(2rem,6.5vw,2.9rem);margin-bottom:22px}
+  .title em{font-style:italic}
+  .hand{font-family:var(--hand);font-weight:400;color:var(--black);line-height:1.15;font-size:1.9rem}
+  .muted{color:var(--text-soft)}
+
+  /* ---------- Links e botões ---------- */
+  .link{
+    display:inline-block;font-size:11px;font-weight:400;letter-spacing:.22em;text-transform:uppercase;
+    text-decoration:none;border-bottom:1px solid var(--black);padding-bottom:5px;transition:opacity .3s;
+  }
+  .link:hover{opacity:.6}
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:14px 34px;
+    background:var(--black);color:var(--white);border:1px solid var(--black);text-decoration:none;
+    font-size:11px;font-weight:400;letter-spacing:.24em;text-transform:uppercase;text-align:center;
+    transition:background .35s var(--ease),color .35s var(--ease);
+  }
+  .btn:hover,.btn:focus-visible{background:transparent;color:var(--black)}
+  .btn--line{background:transparent;color:var(--black)}
+  .btn--line:hover,.btn--line:focus-visible{background:var(--black);color:var(--white)}
+  .btn--light{background:transparent;color:var(--white);border-color:var(--white)}
+  .btn--light:hover,.btn--light:focus-visible{background:var(--white);color:var(--black)}
+  :focus-visible{outline:1px solid var(--black);outline-offset:4px}
+
+  /* ---------- Fotos (placeholders em P&B) ---------- */
+  .ph{
+    position:relative;overflow:hidden;display:flex;align-items:flex-end;
+    background:linear-gradient(160deg,#e2e2e2 0%,#c4c4c4 55%,#a2a2a2 100%);
+  }
+  .ph span{
+    position:relative;z-index:1;margin:10px;padding:4px 8px;max-width:calc(100% - 20px);
+    font-size:11px;line-height:1.35;color:var(--black);background:rgba(255,255,255,.85);
+  }
+  .ph img,.ph video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+
+  /* ---------- MENU ---------- */
+  .nav{
+    position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(255,255,255,.96);
+    border-bottom:1px solid transparent;transition:border-color .3s;
+  }
+  .nav.is-scrolled{border-bottom-color:var(--line)}
+  .nav__inner{display:flex;align-items:center;justify-content:space-between;height:66px}
+  .brand{text-decoration:none;display:flex;align-items:center;gap:12px;line-height:1}
+  .brand__text{display:flex;flex-direction:column;align-items:center}
+  .brand__name{font-family:var(--serif);font-size:1.15rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--black);white-space:nowrap}
+  .brand__sub{font-size:8px;letter-spacing:.3em;text-transform:uppercase;color:var(--gray);margin-top:6px;white-space:nowrap}
+  .mono{display:block;flex:none}
+  .brand .mono{width:28px;height:38px;color:var(--black)}
+  .nav__links{display:none}
+  .nav__links a{font-size:11px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;transition:opacity .3s}
+  .nav__links a:hover{opacity:.55}
+  .nav__right{display:flex;align-items:center;gap:10px}
+  .nav__cta{min-height:0;padding:9px 16px;font-size:10px}
+  .burger{width:44px;height:44px;border:0;background:none;cursor:pointer;padding:0;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px}
+  .burger span{width:22px;height:1px;background:var(--black);transition:transform .3s var(--ease)}
+  .burger[aria-expanded="true"] span:nth-child(1){transform:translateY(3.5px) rotate(45deg)}
+  .burger[aria-expanded="true"] span:nth-child(2){transform:translateY(-3.5px) rotate(-45deg)}
+  .drawer{
+    position:fixed;inset:66px 0 0 0;z-index:49;background:var(--white);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;
+    opacity:0;visibility:hidden;transition:opacity .35s var(--ease),visibility .35s;
+  }
+  .drawer.is-open{opacity:1;visibility:visible}
+  .drawer a:not(.btn){font-family:var(--serif);font-size:2rem;text-decoration:none}
+
+  /* ---------- HERO (texto central, fotos nos cantos) ---------- */
+  /* ---------- HERO: tela cheia, metade noiva / metade social ---------- */
+  .hero{
+    position:relative;padding:0;overflow:hidden;background:var(--black);color:var(--white);
+    height:100vh;height:100svh;min-height:560px;
+    display:flex;align-items:flex-end;
+  }
+  .split{position:absolute;inset:0;display:grid;grid-template-columns:1fr;background:var(--white)}
+  .split__half{position:relative;margin:0;overflow:hidden;background:#222}
+  .split__half video,.split__half img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .split__half--noiva video{object-position:100% 22%;transform:scale(1.3);transform-origin:100% 30%}
+  .hero::after{ /* véu escuro leve para o nome ficar legível */
+    content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+    background:radial-gradient(ellipse 70% 45% at 50% 52%,rgba(0,0,0,.32),rgba(0,0,0,.12) 70%,rgba(0,0,0,.08));
+  }
+  /* Nome no centro, como assinatura */
+  .hero{align-items:center;justify-content:center}
+  .hero__brand{position:relative;z-index:2;text-align:center;color:var(--white);padding:0 16px;text-shadow:0 2px 24px rgba(0,0,0,.25)}
+  .hero__mono{width:40px;height:54px;margin:0 auto 18px;color:var(--white)}
+  .hero__name{
+    font-family:var(--serif);font-weight:300;color:var(--white);
+    font-size:clamp(3rem,12.5vw,7.6rem);line-height:1;letter-spacing:-.01em;white-space:nowrap;
+  }
+  .swash{ /* G caligráfico, como nas referências */
+    font-family:var(--swash);font-weight:400;font-size:1.32em;line-height:0;
+    margin-right:-.1em;position:relative;top:.06em;
+  }
+  .hero__place{margin:10px 0 0;font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:rgba(255,255,255,.85)}
+  .hero__beauty{
+    margin:18px 0 0;font-family:var(--sans);font-weight:400;font-size:11px;
+    letter-spacing:.55em;text-transform:uppercase;padding-left:.55em;
+  }
+
+  /* ---------- ABERTURA (logo abaixo do topo) ---------- */
+  .opening{text-align:center;padding:80px 0 70px}
+  .opening .title{max-width:17em;text-wrap:balance;margin:0 auto 18px}
+  .opening p{max-width:30em;margin:0 auto 30px}
+  .opening__grid{display:grid;gap:40px 14px;align-items:start;grid-template-columns:1.15fr 1fr;grid-template-areas:'text text' 'left right'}
+  .opening__text{grid-area:text}
+  .opening__left{grid-area:left}
+  .opening__right{grid-area:right}
+  .opening__left{position:relative;z-index:2}
+  .opening__left .ph{aspect-ratio:3/4}
+  .opening__right{display:flex;flex-direction:column;gap:12px;width:100%}
+  .opening__right .ph{flex:1;aspect-ratio:4/5}
+  .opening__r2{width:82%;margin-left:auto}
+  @media (max-width:1023px){ .seal{width:78px;height:78px;right:-22px;bottom:-26px} }
+  .seal{position:absolute;z-index:3;right:-52px;bottom:-52px;width:118px;height:118px;color:var(--black);background:var(--white);border-radius:50%;animation:seal 30s linear infinite}
+  .seal use{color:var(--black)}
+  @keyframes seal{to{transform:rotate(360deg)}}
+  @media (prefers-reduced-motion:reduce){.seal{animation:none}}
+  @media (min-width:1024px){
+    .opening{padding:110px 0}
+    .opening__grid{grid-template-columns:1fr 1.9fr 1fr;gap:48px;align-items:center;grid-template-areas:'left text right'}
+    .opening__left{width:88%}
+    .opening__right{flex-direction:column;align-items:flex-end;max-width:none;gap:0}
+    .opening__r1{width:78%;flex:none !important}
+    .opening__r2{width:62%;flex:none !important;margin-top:28px;margin-right:24%}
+  }
+  .opening__actions a{white-space:nowrap}
+  .opening__actions{display:flex;flex-direction:column;align-items:center;gap:20px}
+
+  /* ---------- FAIXA DE PROVA ---------- */
+
+  /* ---------- SEÇÕES COM IMAGEM AMPLIADA DE FUNDO (véu, copos-de-leite) ----------
+     A imagem ocupa metade da seção e se dissolve no branco; o texto fica do outro lado. */
+  .soft{position:relative;overflow:hidden;background:var(--white);padding:0}
+  .soft__img{position:absolute;top:0;bottom:0;width:58%;background-size:cover;background-position:center}
+  .soft--right .soft__img{right:0}
+  .soft--left .soft__img{left:0}
+  /* a imagem se dissolve no branco pelas bordas (o fundo das fotos é cinza-claro, não branco puro) */
+  .soft__img{
+    -webkit-mask-composite:source-in;mask-composite:intersect;
+  }
+  .soft--right .soft__img{
+    -webkit-mask-image:linear-gradient(to right,transparent 0%,#000 45%),linear-gradient(to bottom,transparent 0%,#000 14%,#000 86%,transparent 100%);
+            mask-image:linear-gradient(to right,transparent 0%,#000 45%),linear-gradient(to bottom,transparent 0%,#000 14%,#000 86%,transparent 100%);
+  }
+  .soft--left .soft__img{
+    -webkit-mask-image:linear-gradient(to left,transparent 0%,#000 45%),linear-gradient(to bottom,transparent 0%,#000 14%,#000 86%,transparent 100%);
+            mask-image:linear-gradient(to left,transparent 0%,#000 45%),linear-gradient(to bottom,transparent 0%,#000 14%,#000 86%,transparent 100%);
+  }
+  .soft__inner{position:relative;z-index:2;min-height:82vh;display:flex;align-items:center;padding-top:100px;padding-bottom:100px}
+  .soft__text{max-width:520px}
+  .soft--left .soft__text{margin-left:auto}
+  .soft h2{
+    font-weight:300;text-transform:uppercase;letter-spacing:.02em;color:var(--black);
+    font-size:clamp(2rem,6.5vw,3.3rem);line-height:1.12;
+  }
+  .soft h2 em{text-transform:none;font-style:italic}
+  .soft p{margin:22px 0 0;color:var(--text-soft)}
+  .soft blockquote{margin:36px 0 0;font-family:var(--hand);font-size:2.2rem;line-height:1.1;color:var(--black);transform:rotate(-3deg);transform-origin:left}
+  .soft cite{display:block;margin-top:10px;font-family:var(--sans);font-style:normal;font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--gray);transform:rotate(3deg);transform-origin:left}
+
+  /* ---------- SERVIÇOS (caixa alta grande, alternado) ---------- */
+  .svc__intro{text-align:center;margin-bottom:44px}
+  .svc__intro p{max-width:32em;margin:0 auto}
+  .svc-cards{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .svc-card{position:relative;margin:0;aspect-ratio:3/4;overflow:hidden;background:#ddd}
+  .svc-card img,.svc-card video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+  .svc-card__t{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:70px 14px 16px;color:#fff;background:linear-gradient(to top,rgba(0,0,0,.66),rgba(0,0,0,.25) 55%,transparent)}
+  .svc-card h3{font-family:var(--serif);font-weight:400;font-size:1.05rem;letter-spacing:.08em;white-space:nowrap;text-transform:uppercase;color:#fff;margin:0}
+  .svc-card p{display:none;font-size:12px;line-height:1.5;color:rgba(255,255,255,.85);margin:4px 0 10px}
+  .svc-card h3{margin-bottom:8px}
+  .svc-card__link{font-size:9.5px;letter-spacing:.24em;text-transform:uppercase;color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.7);padding-bottom:3px}
+  @media (min-width:700px){ .svc-cards{gap:10px} .svc-card{aspect-ratio:4/5} .svc-card p{display:block} .svc-card h3{font-size:1.25rem;margin-bottom:0} .svc-card__t{padding:80px 18px 18px} }
+  @media (min-width:1024px){ .svc-cards{grid-template-columns:repeat(4,1fr);gap:12px} .svc-card{aspect-ratio:2/3} .svc-card__t{padding:80px 18px 20px} .svc-card h3{font-size:1.3rem} .svc-card p{font-size:12.5px} }
+    font-weight:300;text-transform:uppercase;letter-spacing:.03em;color:var(--gray);
+    font-size:clamp(2.4rem,10vw,5.2rem);line-height:.95;margin-bottom:14px;
+  }
+
+  /* ---------- APRESENTAÇÃO ---------- */
+  .about{background:var(--white)}
+  .about__grid{display:grid;gap:48px}
+  .about__photo{position:relative;max-width:460px}
+  .about__photo .ph{aspect-ratio:3/4}
+  .about__small{position:absolute;right:-8px;bottom:-40px;width:42%}
+  .about__small .ph{aspect-ratio:1;border:6px solid var(--off)}
+  .about__main img{object-position:58% 30%}
+  .about__small img{object-position:45% 22%}
+  .about__role{font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--gray);margin:-10px 0 26px}
+  .about__hello{font-family:'Homemade Apple',cursive;font-weight:400;font-size:clamp(1.1rem,calc((100vw - 56px) / 13),2rem);line-height:1.6;white-space:nowrap;color:#2a2a2a}
+  .pencil-g{font-family:'Nothing You Could Do',cursive;font-size:1.05em;display:inline-block;line-height:0}
+  .about__text p{color:var(--text-soft)}
+  .about__text p:first-child{font-family:var(--serif);font-size:1.5rem;line-height:1.4;color:var(--black)}
+  .facts{list-style:none;margin:30px 0;padding:0;display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line)}
+  .facts li{padding:16px 10px 16px 0;border-bottom:1px solid var(--line)}
+  .facts b{display:block;font-family:var(--serif);font-weight:400;font-size:1.4rem;color:var(--black);line-height:1.2}
+  .facts small{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gray)}
+  .signature{font-family:'Homemade Apple',cursive;font-size:1.2rem;line-height:1.6;color:#2a2a2a;margin:8px 0 28px}
+
+  /* ---------- ESTILOS ---------- */
+
+  /* ---------- GALERIA ---------- */
+  .gallery{background:var(--off)}
+  .gallery__head{text-align:center;margin-bottom:26px}
+  .gallery__head p{max-width:34em;margin:0 auto}
+  .gallery__quote{font-family:var(--serif);font-style:italic;font-weight:300;font-size:clamp(15px,calc((100vw - 56px) / 16.5),2.6rem);line-height:1.2;color:var(--black);white-space:nowrap;margin:0 auto}
+  .pf-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px 10px}
+  .pf--big{grid-column:span 2}
+  .pf{margin:0}
+  .pf__img{position:relative;aspect-ratio:4/5;overflow:hidden;background:#eee}
+  .pf__img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+  .pf:hover .pf__img img{transform:scale(1.03)}
+  .pf figcaption{padding-top:10px;text-align:center;font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:var(--gray)}
+  .pf-more{text-align:center;margin-top:40px}
+  @media (min-width:1024px){ .pf-grid{grid-template-columns:1.3fr 1fr 1fr;gap:22px 16px;max-width:1040px;margin:0 auto} .pf--big{grid-column:auto;grid-row:span 2;display:flex;flex-direction:column} .pf--big .pf__img{aspect-ratio:auto;flex:1} }
+
+  /* ---------- DEPOIMENTOS ---------- */
+  .testi__head{text-align:center;margin-bottom:54px}
+  .testi__list{display:grid;gap:12px;max-width:880px;margin:0 auto}
+  .testi{margin:0;text-align:center;background:var(--off);padding:26px 22px 24px}
+  .testi__stars{display:block;font-size:10px;letter-spacing:.3em;color:#b5b5b5;margin-bottom:12px}
+  .testi blockquote{margin:0 0 14px;font-family:var(--serif);font-style:italic;font-size:1.2rem;line-height:1.4;color:var(--black)}
+  .testi figcaption{font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--gray)}
+
+  /* ---------- COMO AGENDAR ---------- */
+  .how{border-top:1px solid var(--line)}
+  .how__head{text-align:center;margin-bottom:56px}
+  .steps{list-style:none;margin:0 0 50px;padding:0;display:grid;gap:40px}
+  .step{text-align:center}
+  .step__num{display:block;font-family:var(--serif);font-weight:300;font-size:3rem;line-height:1;color:var(--gray);margin-bottom:14px}
+  .step h3{font-size:1.5rem;margin-bottom:8px}
+  .step p{margin:0 auto;max-width:22em;color:var(--text-soft)}
+  .how__cta{text-align:center}
+
+  /* ---------- FAQ ---------- */
+  .faq{background:var(--off)}
+  .faq__head{text-align:center;margin-bottom:40px}
+  .faq__list{max-width:760px;margin:0 auto;border-top:1px solid var(--black)}
+  .faq details{border-bottom:1px solid var(--line)}
+  .faq summary{
+    list-style:none;cursor:pointer;position:relative;padding:22px 40px 22px 0;
+    font-family:var(--serif);font-size:1.35rem;line-height:1.3;color:var(--black);
+  }
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::before,.faq summary::after{content:"";position:absolute;right:4px;top:50%;width:14px;height:1px;background:var(--black);transition:transform .35s var(--ease)}
+  .faq summary::after{transform:rotate(90deg)}
+  .faq details[open] summary::after{transform:rotate(0)}
+  .faq details p{margin:0;padding:0 40px 24px 0;color:var(--text-soft)}
+
+  /* ---------- CTA FINAL (faixa de foto) ---------- */
+  .final .soft__inner{min-height:0;justify-content:center;padding-top:110px;padding-bottom:110px}
+  .final .soft__text{margin:0 auto;text-align:center}
+  .final .mono{width:40px;height:54px;margin:0 auto 22px;color:var(--black)}
+  .final h2{text-transform:none;font-size:clamp(2.2rem,6.5vw,3.4rem)}
+  .final p{margin:14px 0 30px}
+
+  .faq .wrap{position:relative;z-index:1}
+
+  /* ---------- RODAPÉ ---------- */
+  footer{padding:60px 0 110px;text-align:center;color:var(--text-soft);font-size:13px}
+  footer .mono{width:36px;height:50px;margin:0 auto 16px;color:var(--black)}
+  footer .brand__name{display:block;font-size:1.2rem;margin-bottom:4px}
+  .footer__beauty{font-size:10px;letter-spacing:.5em;text-transform:uppercase;padding-left:.5em;margin-bottom:14px !important}
+  footer p{margin:0 0 6px}
+  footer a{text-decoration:none;border-bottom:1px solid var(--line)}
+  footer a:hover{border-bottom-color:var(--black)}
+  footer small{display:block;margin-top:24px;font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--gray)}
+
+  /* ---------- WHATSAPP FLUTUANTE ---------- */
+  .wa-float{
+    position:fixed;right:18px;bottom:18px;z-index:60;width:56px;height:56px;border-radius:50%;
+    background:var(--black);color:var(--white);display:flex;align-items:center;justify-content:center;
+    box-shadow:0 8px 24px rgba(0,0,0,.2);transition:transform .3s var(--ease);
+  }
+  .wa-float:hover{transform:translateY(-3px)}
+  .wa-float svg{width:26px;height:26px}
+
+  /* ---------- ANIMAÇÕES ---------- */
+  .js .reveal{opacity:0;translate:0 20px;transition:opacity .9s var(--ease),translate .9s var(--ease)}
+  .js .reveal.is-in{opacity:1;translate:0 0}
+  .js .reveal.d1{transition-delay:.12s}
+  .js .reveal.d2{transition-delay:.24s}
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    .js .reveal{opacity:1;translate:none;transition:none}
+  }
+
+  /* ---------- FAIXA DE MARCAS ---------- */
+  .brands{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px 0 18px;overflow:hidden}
+  .brands__label{text-align:center;font-size:10px;letter-spacing:.26em;text-transform:uppercase;color:var(--gray);margin:0 0 10px}
+  .brands__track{display:flex;width:max-content;animation:brands 70s linear infinite}
+  .brands:hover .brands__track{animation-play-state:paused}
+  .brands__list{display:flex;list-style:none;margin:0;padding:0}
+  .brands__list li{font-family:var(--serif);font-size:1.15rem;letter-spacing:.2em;text-transform:uppercase;color:var(--black);white-space:nowrap;padding:0 34px;position:relative}
+  .brands__list li::after{content:'';position:absolute;right:-2px;top:50%;width:4px;height:4px;border-radius:50%;background:var(--line)}
+  @keyframes brands{to{transform:translateX(-50%)}}
+  @media (prefers-reduced-motion:reduce){ .brands__track{animation:none;flex-wrap:wrap;justify-content:center;width:auto} .brands__list[aria-hidden]{display:none} .brands__list{flex-wrap:wrap;justify-content:center} }
+
+  /* ---------- ADESIVO ENTRE SEÇÕES ---------- */
+  .sticker{position:relative;height:0;z-index:5;pointer-events:none}
+  .sticker img{position:absolute;right:12%;top:-58px;width:46px;height:auto;transform:rotate(-28deg);filter:drop-shadow(0 6px 8px rgba(0,0,0,.18)) drop-shadow(0 1px 1px rgba(0,0,0,.12))}
+  @media (min-width:1024px){ .sticker img{width:58px;top:-74px;right:16%} }
+
+  /* ---------- OBJETOS DECORATIVOS (pincel e espátula) ---------- */
+  .services,.faq{overflow:hidden}
+  .deco{position:absolute;pointer-events:none;z-index:0;height:auto}
+  .services .wrap,.faq .wrap{position:relative;z-index:1}
+  .deco--pincel{width:84px;top:12px;left:-26px}
+  .deco--espatula{width:48px;top:auto;bottom:-26px;right:6%;left:auto}
+  @media (min-width:1024px){ .deco--pincel{width:170px;top:40px;left:-40px} .deco--espatula{width:130px;bottom:-60px;right:8%} }
+
+  /* ---------- CELULAR ---------- */
+  @media (max-width:699px){
+    .soft__img{width:100%;opacity:.32}
+    .soft--right .soft__img,.soft--left .soft__img{
+      -webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 14%,#000 86%,transparent 100%);
+              mask-image:linear-gradient(to bottom,transparent 0%,#000 14%,#000 86%,transparent 100%);
+    }
+    .soft__inner{min-height:0;padding-top:90px;padding-bottom:90px}
+    .hero__mono{width:52px;height:70px;margin-bottom:16px}
+    .hero__beauty{font-size:10px;margin-top:14px}
+    .about__cta{display:flex;width:fit-content;margin:0 auto}
+    .brand .mono{display:none}
+    .brand__name{font-size:1rem}
+    .brand__sub{font-size:7.5px}
+  }
+
+  /* ---------- TABLET ---------- */
+  @media (min-width:700px){
+    :root{--gutter:40px}
+    section{padding:120px 0}
+    .testi__list{grid-template-columns:repeat(3,1fr);gap:14px}
+    .steps{grid-template-columns:repeat(3,1fr);gap:40px}
+    .opening__actions a{white-space:nowrap}
+  .opening__actions{flex-direction:row;justify-content:center;gap:30px}
+  }
+
+  /* ---------- DESKTOP ---------- */
+  @media (min-width:1024px){
+    .nav__links{display:flex;gap:34px}
+    .burger,.drawer{display:none}
+              .about__grid{grid-template-columns:.9fr 1.1fr;gap:110px;align-items:center}
+  }
+
+  /* Nina Costa: 5 passos e 6 serviços */
+  .steps--5{gap:34px}
+  @media (min-width:700px){ .steps--5{grid-template-columns:repeat(3,1fr)} }
+  @media (min-width:1100px){ .steps--5{grid-template-columns:repeat(5,1fr);gap:24px} .steps--5 .step p{font-size:13.5px} }
+  @media (min-width:1024px){ .svc-cards--6{grid-template-columns:repeat(3,1fr)} .svc-cards--6 .svc-card{aspect-ratio:4/5} }
+  .vph{position:absolute;inset:0;width:100%;height:100%;background:linear-gradient(160deg,#4a4642,#2b2927)}
+
+  /* Seletor de idioma */
+  .lang{position:fixed;top:14px;right:14px;z-index:60;display:flex;gap:6px;padding:5px;border-radius:999px;background:rgba(255,255,255,.88);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);box-shadow:0 2px 12px rgba(0,0,0,.18)}
+  .lang button{all:unset;cursor:pointer;width:30px;height:30px;border-radius:50%;overflow:hidden;opacity:.45;transition:opacity .2s,transform .2s;display:block;line-height:0}
+  .lang button:hover{opacity:.8}
+  .lang button[aria-pressed="true"]{opacity:1;box-shadow:0 0 0 2px #111}
+  .lang button:focus-visible{outline:2px solid #111;outline-offset:2px}
+  .lang svg{width:30px;height:30px;display:block}
+
+  /* Equipe: faixa compacta */
+  .team{background:var(--off);padding:30px 0}
+  .team__in{display:flex;align-items:center;gap:30px;flex-wrap:wrap}
+  .team__foto{flex:0 0 auto;width:min(100%,400px);aspect-ratio:4/3;overflow:hidden}
+  .team__foto img{width:100%;height:100%;object-fit:cover;object-position:50% 15%;filter:grayscale(1) contrast(1.05)}
+  .team__txt{flex:1 1 220px}
+  .team__txt .title{font-size:1.6rem}
+  .team__txt p{margin:6px 0 0}
+
+  /* Ritmo de fundos depois da reordenação */
+  .how{background:var(--off);position:relative;overflow:hidden}
+  .how .wrap,.final .soft__inner{position:relative;z-index:1}
+
+  /* Amostras de blush como adesivos (mix-blend multiply some com qualquer fundo branco que sobrar) */
+  .deco--blush1,.deco--blush2{mix-blend-mode:multiply;opacity:.92}
+  /* a arte tem ~40% de margem branca em volta, por isso os tamanhos parecem grandes */
+  .deco--blush1{width:240px;top:-80px;right:-80px;left:auto;transform:rotate(16deg)}
+  /* celular: embaixo do botão, saindo pela lateral (não passa atrás do texto) */
+  .deco--blush2{width:290px;bottom:-150px;left:-200px;top:auto;transform:rotate(68deg)}
+  @media (min-width:700px){
+    .deco--blush2{width:330px;bottom:-130px;left:-160px}
+  }
+  @media (min-width:1024px){
+    .deco--blush1{width:440px;top:-150px;right:-30px}
+    .deco--blush2{width:500px;bottom:-130px;left:-210px}
+  }
+
+  /* ---------- ajustes gerais ---------- */
+  .seal.seal--cz{animation:seal 36s linear infinite;will-change:transform}
+
+  .recog{padding:0 0 90px}
+  .recog .wrap{max-width:760px;border-top:1px solid var(--line);padding-top:64px}
+  .recog .title{max-width:17em;margin:0 auto 20px;text-wrap:balance}
+  .recog .muted{max-width:34em;margin:0 auto 26px}
+
+  .seal--cz svg{position:absolute;inset:0;width:100%;height:100%;display:block}
+
+  .opening__facts{max-width:34em;margin:34px auto 6px;text-align:center}
+  .opening__facts li{padding:16px 10px}
+
+  .quotes{column-count:1;column-gap:16px;max-width:1000px;margin:0 auto}
+  .quote{break-inside:avoid;margin:0 0 16px;background:var(--off);padding:26px 24px 22px;text-align:center}
+  .quote blockquote{margin:0 0 16px;font-family:var(--serif);font-style:italic;font-size:1.15rem;line-height:1.5;color:var(--black)}
+  .quote figcaption{font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--gray)}
+  @media (min-width:700px){.quotes{column-count:2}}
+  @media (min-width:1024px){.quotes{column-count:3;column-gap:18px}.quote{margin-bottom:18px}}
+
+  .wa-float{background:none;box-shadow:none;width:auto;height:auto;color:var(--black)}
+  .wa-float svg{width:46px;height:46px;filter:drop-shadow(0 0 2px rgba(255,255,255,.95)) drop-shadow(0 0 6px rgba(255,255,255,.7)) drop-shadow(0 3px 8px rgba(0,0,0,.25))}
+
+  .course-list{list-style:none;margin:30px 0 26px;padding:0;border-top:1px solid var(--line)}
+  .course-list li{padding:15px 0;border-bottom:1px solid var(--line)}
+  .course-list b{display:block;font-family:var(--serif);font-weight:400;font-size:1.3rem;line-height:1.2;color:var(--black);margin-bottom:2px}
+  .course-list span{font-size:14px;color:var(--text-soft)}
+
+  .prints.prints--shots{display:block;column-count:2;column-gap:12px;max-width:980px}
+  .shot-print{break-inside:avoid;margin:0 0 12px}
+  .shot-print img{width:100%;height:auto;border:1px solid var(--line);box-shadow:0 6px 18px rgba(0,0,0,.06);background:#fff}
+  @media (min-width:700px){.prints.prints--shots{column-count:3;column-gap:18px}.shot-print{margin-bottom:16px}}
+
+  .courses__grid .courses__photo>.ph{aspect-ratio:4/5;max-width:none}
+  .courses__grid .about__small .ph{aspect-ratio:1;max-width:none;border-color:#fff}
+  .courses__photo{margin-bottom:40px}
+
+  /* topo com vídeo: rosto livre, texto embaixo */
+  .hero{align-items:flex-end}
+  .split__half video{object-position:50% 22%}
+  .hero::after{background:linear-gradient(to top,rgba(0,0,0,.78) 0%,rgba(0,0,0,.45) 38%,rgba(0,0,0,0) 62%)}
+  .hero__brand{padding-bottom:clamp(28px,6vh,56px)}
+  .hero__mono{display:none}
+  .hero__name--frase{font-size:clamp(2.1rem,6.2vw,4.4rem)}
+  .hero__sub{margin:16px auto 22px;font-size:14px}
+  .hero__beauty--top{margin-bottom:14px}
+  @media (min-width:1024px){
+    .hero{align-items:flex-end;justify-content:flex-start}
+    .split__half video{object-position:50% 30%}
+    .hero::after{background:linear-gradient(to right,rgba(0,0,0,.72) 0%,rgba(0,0,0,.5) 28%,rgba(0,0,0,0) 52%),linear-gradient(to top,rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 40%)}
+    .hero__brand{width:min(36vw,520px);text-align:left;padding:0 clamp(40px,5vw,80px) clamp(40px,8vh,80px)}
+    .hero__mono{display:block;margin:0 0 22px;width:44px;height:60px;color:#fff}
+    .hero__beauty--top{padding-left:0}
+    .hero__name--frase{margin:0;max-width:11ch;font-size:clamp(2.6rem,4.2vw,4.2rem)}
+    .hero .hero__sub{margin:18px 0 26px;font-size:14px;max-width:30em}
+  }
+
+  .seal--cz{overflow:hidden;width:112px;height:112px;right:-28px;bottom:-34px;background:#fff;box-shadow:0 4px 18px rgba(0,0,0,.12)}
+  .seal--cz img{position:absolute;width:124.7%;max-width:none;left:-14.5%;top:-27.8%}
+  @media (min-width:1024px){.seal--cz{width:140px;height:140px;right:-52px;bottom:-52px}}
+
+  .svc-card h3{white-space:normal;line-height:1.2;font-size:1rem}
+  @media (min-width:700px){.svc-card h3{font-size:1.15rem}}
+  .hero__name--frase{font-weight:400}
+  .pf__img,.svc-card,.team__foto{background:linear-gradient(160deg,#e2e2e2 0%,#c4c4c4 55%,#a2a2a2 100%)}
+  .ph-l{position:absolute;left:10px;bottom:10px;z-index:1;padding:4px 8px;max-width:calc(100% - 20px);font-size:11px;line-height:1.35;color:var(--black);background:rgba(255,255,255,.85)}
+  .svc-card .ph-l{top:10px;bottom:auto}
+  .hero__name--frase{font-size:clamp(2.5rem,8vw,5.6rem);white-space:normal;max-width:13ch;margin:0 auto;line-height:1.04}
+  .hero__sub{max-width:34em;margin:22px auto 28px;font-size:15px;line-height:1.6;color:rgba(255,255,255,.92)}
+  .hero__beauty{margin-top:26px}
+  .hero__beauty--top{margin:0 0 20px}
+  .prints{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;max-width:980px;margin:0 auto}
+  .prints .ph{aspect-ratio:9/16}
+  @media (min-width:700px){.prints{grid-template-columns:repeat(4,1fr);gap:14px}}
+  .steps--4{gap:34px}
+  @media (min-width:700px){.steps--4{grid-template-columns:repeat(2,1fr)}}
+  @media (min-width:1100px){.steps--4{grid-template-columns:repeat(4,1fr);gap:28px}}
+  .courses__grid{display:grid;gap:40px;align-items:center}
+  @media (min-width:1024px){.courses__grid{grid-template-columns:.9fr 1.1fr;gap:110px}}
+  .courses__grid .ph{aspect-ratio:4/5;max-width:460px}
+  /* ---------- TOPO v2: menu transparente + nome ao centro ---------- */
+  .hero{align-items:flex-end;justify-content:center}
+  .hero::after{background:linear-gradient(to bottom,rgba(0,0,0,.5) 0%,rgba(0,0,0,0) 24%),linear-gradient(to top,rgba(0,0,0,.66) 0%,rgba(0,0,0,.25) 38%,rgba(0,0,0,0) 62%)}
+  .split__half video{object-position:50% 24%}
+  .hero__brand{width:100%;max-width:none;text-align:center;color:#fff;padding:0 16px clamp(52px,11vh,104px);text-shadow:0 2px 24px rgba(0,0,0,.28)}
+  .hero__mono{display:none}
+  .hero__name{font-size:clamp(4.4rem,17vw,9.5rem);white-space:nowrap;margin:0;line-height:1;font-weight:300}
+  .hero__beauty{margin:16px 0 0;padding-left:.55em;font-size:11px;letter-spacing:.55em;text-transform:uppercase}
+  @media (min-width:1024px){
+    .hero{justify-content:center}
+    .hero__brand{width:100%;text-align:center;padding:0 16px clamp(56px,12vh,110px)}
+    .hero__name{font-size:clamp(7rem,12vw,11rem)}
+    .hero__beauty{font-size:12px}
+  }
+  .promise{padding:90px 0 70px}
+  .promise .title{max-width:15em;margin:0 auto 18px;text-wrap:balance}
+  .promise .muted{max-width:32em;margin:0 auto 28px}
+
+  .topbar{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px var(--gutter);color:#fff;background:transparent;transition:background .35s,color .35s,box-shadow .35s}
+  .topbar.is-solid{background:rgba(255,255,255,.95);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);color:var(--black);box-shadow:0 1px 0 var(--line)}
+  .topbar a{text-decoration:none}
+  .topbar__burger,.topbar__wa{display:grid;place-items:center;width:42px;height:42px;color:inherit;background:none;border:0;cursor:pointer}
+  .topbar__burger svg,.topbar__wa svg{width:24px;height:24px}
+  .topbar__logo{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:inherit;line-height:0}
+  .topbar__mono{width:30px;height:40px;color:inherit}
+  .topbar__nav,.topbar__cta{display:none}
+  .menu{position:fixed;inset:0;z-index:300;background:#111;color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:34px;padding:var(--gutter) 32px}
+  .menu[hidden]{display:none}
+  .menu__close{position:absolute;top:14px;left:var(--gutter);width:42px;height:42px;font-size:30px;line-height:1;color:#fff;background:none;border:0;cursor:pointer}
+  .menu__nav{display:grid;gap:8px}
+  .menu__nav a{font-family:var(--serif);font-size:2.2rem;line-height:1.2;text-decoration:none;color:#fff}
+  @media (min-width:1024px){
+    .topbar{padding:16px 40px}
+    .topbar__burger{display:none}
+    .topbar__logo{position:static;transform:none}
+    .topbar__nav{display:flex;gap:clamp(14px,2vw,30px);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase}
+    .topbar__nav a{opacity:.92;padding:6px 0;border-bottom:1px solid transparent}
+    .topbar__nav a:hover{opacity:1;border-bottom-color:currentColor}
+    .topbar__cta{display:none;border:1px solid currentColor;padding:11px 18px;font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:inherit}
+    .topbar__cta:hover{background:#fff;color:var(--black)}
+    .topbar.is-solid .topbar__cta:hover{background:var(--black);color:#fff}
+  }
+  @media (min-width:1024px){
+    .split__half video{object-position:50% 56%}
+    .hero__brand{padding-bottom:clamp(18px,3.5vh,34px)}
+    .hero__name{font-size:clamp(4.6rem,8vw,6.8rem)}
+    .hero__beauty{margin-top:10px;font-size:11px}
+    .hero::after{background:linear-gradient(to bottom,rgba(0,0,0,.5) 0%,rgba(0,0,0,0) 22%),linear-gradient(to top,rgba(0,0,0,.72) 0%,rgba(0,0,0,.35) 24%,rgba(0,0,0,0) 46%)}
+  }
+  /* Dúvidas: maior e mais confortável */
+  .faq{padding:110px 0}
+  .faq__head{margin-bottom:56px}
+  .faq__list{max-width:900px}
+  .faq summary{padding:30px 48px 30px 0;font-size:clamp(1.35rem,2.4vw,1.75rem)}
+  .faq summary::before,.faq summary::after{width:18px}
+  .faq details p{font-size:1.05rem;line-height:1.7;padding:0 48px 32px 0}
+  .opening .opening__actions{flex-direction:column;align-items:center;justify-content:center;gap:22px;text-align:center}
+  .opening__text .title{margin-bottom:16px}
+  .opening__text > p{margin-bottom:16px;line-height:1.65;max-width:34em}
+  .opening__text .opening__facts{margin-top:26px}
+  .steps--6{gap:36px}
+  @media (min-width:700px){.steps--6{grid-template-columns:repeat(2,1fr);gap:44px 32px}}
+  @media (min-width:1024px){.steps--6{grid-template-columns:repeat(3,1fr);max-width:1000px;margin-left:auto;margin-right:auto}}
+  /* (removido) Estratégia de beleza */
+  #personalidade .wrap{max-width:1000px}
+  .strat{display:grid;grid-template-columns:1fr;gap:14px;margin:44px auto 0;text-align:center}
+  .strat__item{background:var(--off);padding:28px 22px 26px}
+  .strat__item h3{font-family:var(--serif);font-weight:400;font-size:1.3rem;line-height:1.2;margin:0 0 10px;color:var(--black)}
+  .strat__item p{margin:0 auto;font-size:15px;line-height:1.6;color:var(--text-soft);max-width:22em}
+  @media (min-width:700px){.strat{grid-template-columns:repeat(2,1fr)}}
+  @media (min-width:1024px){.strat{grid-template-columns:repeat(3,1fr);gap:16px}}
+  /* Apresentação: foto da Fê maior */
+  .opening__grid{grid-template-columns:1fr;gap:40px;grid-template-areas:'left' 'text' 'right'}
+  .opening__left{width:100%}
+  .opening__left .ph{aspect-ratio:4/5}
+  .opening__right{display:grid;grid-template-columns:1fr 1fr;gap:12px;width:100%}
+  .opening__right .ph.opening__r1,.opening__right .ph.opening__r2{width:100%;margin:0;aspect-ratio:4/5;flex:none}
+  .opening .seal--cz{right:12px;bottom:-34px}
+  @media (min-width:1024px){
+    .opening__grid{grid-template-columns:1fr 1fr;gap:56px 72px;align-items:center;grid-template-areas:'left text' 'right right'}
+    .opening__left{width:100%}
+    .opening__right{gap:20px}
+    .opening .seal--cz{right:-44px;bottom:-44px}
+  }
+  /* Pele e penteado: 3 cards centralizados */
+  .svc-cards{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+  .svc-cards .svc-card{flex:0 0 calc(50% - 4px)}
+  @media (min-width:700px){ .svc-cards{gap:12px} .svc-cards .svc-card{flex:0 0 calc(33.333% - 8px)} }
+  @media (min-width:1024px){ .svc-cards{max-width:1100px;margin:0 auto} .svc-cards .svc-card{aspect-ratio:3/4} }
+  /* Hero: nome centralizado, com respiro entre as letras */
+  .hero,.hero .hero__brand{align-items:center;justify-content:center}
+  .hero .hero__brand{width:100%;padding:0 16px;text-align:center;display:flex;flex-direction:column;align-items:center}
+  .hero .hero__name{font-family:var(--swash);font-weight:400;letter-spacing:0;line-height:1.15;font-size:clamp(4rem,17vw,9rem)}
+  .hero .hero__name .swash{margin-right:.08em}
+  .hero .hero__beauty{margin:22px 0 0;padding-left:.6em;font-size:12px;letter-spacing:.5em;line-height:1.9}
+  @media (min-width:1024px){ .hero .hero__name{font-size:clamp(6.5rem,10vw,10rem)} .hero .hero__beauty{font-size:13px} }
+
+  /* Caixas cinza no lugar das fotos (somem quando entrar <img>) */
+  .ph-l{position:absolute;left:10px;bottom:10px;z-index:1;font-size:11px;line-height:1.35;color:var(--black);background:rgba(255,255,255,.85);padding:4px 8px;width:fit-content;max-width:calc(100% - 20px)}
+  .svc-card .ph-l{top:10px;bottom:auto}
+  .ph,.pf__img,.svc-card{background:linear-gradient(160deg,#e9e9e7 0%,#cfcfcc 55%,#b3b3b0 100%)}
+  .split__half.hero__ph{background:linear-gradient(160deg,#5a5a5a 0%,#2e2e2e 55%,#1a1a1a 100%)}
+  .hero__ph .ph-l{top:80px;bottom:auto}
+  .todo{background:#FFF1A8;color:#1E1E1E;padding:2px 6px;font-size:.92em;font-style:normal;letter-spacing:0;text-transform:none}
+  /* Serviços e passos em 4 itens */
+  .servicos-lista .wrap{max-width:1000px}
+  .servicos-lista .strat{margin-top:44px}
+  @media (min-width:1024px){ .servicos-lista .strat{grid-template-columns:repeat(2,1fr);gap:16px} }
+  .steps--4{gap:36px}
+  @media (min-width:700px){.steps--4{grid-template-columns:repeat(2,1fr);gap:44px 32px}}
+  @media (min-width:1100px){.steps--4{grid-template-columns:repeat(4,1fr);gap:28px}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="mono" viewBox="0 0 60 80">
+    <ellipse cx="30" cy="40" rx="28" ry="38" fill="none" stroke="currentColor" stroke-width="1"/>
+    <ellipse cx="30" cy="40" rx="25" ry="35" fill="none" stroke="currentColor" stroke-width=".6"/>
+    <text x="30" y="50" font-family="Cormorant Garamond, Georgia, serif" font-size="38" fill="currentColor" text-anchor="middle">P</text>
+  </symbol>
+</svg>
+
+<!-- Monograma P provisório: trocar pelo SVG oficial. WhatsApp: preencher WHATSAPP_NUMERO no fim do arquivo. Fotos ainda são caixas cinza. Trechos em amarelo = a confirmar com a Paula. -->
+
+<header class="topbar" id="topbar">
+  <button class="topbar__burger" id="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h16M4 16h16" stroke-linecap="round"/></svg>
+  </button>
+  <a class="topbar__logo" href="#topo" aria-label="Paula Kalisak, início"><svg class="mono topbar__mono" aria-hidden="true"><use href="#mono"/></svg></a>
+  <nav class="topbar__nav" aria-label="Principal"><a href="#noivas">Noivas</a><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#metodo">Como funciona</a><a href="#depoimentos">Depoimentos</a><a href="#duvidas">Dúvidas</a></nav>
+  <a class="topbar__cta" href="#" target="_blank" rel="noopener" data-wa>Quero um orçamento</a>
+  <a class="topbar__wa" href="#" target="_blank" rel="noopener" data-wa aria-label="Falar pelo WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 19l1.2-3.6A7.5 7.5 0 1 1 9 18.3L5 19Z" stroke-linejoin="round"/></svg></a>
+</header>
+<div class="menu" id="menu" hidden>
+  <button class="menu__close" id="menu-close" type="button" aria-label="Fechar menu">×</button>
+  <nav class="menu__nav" aria-label="Navegação mobile"><a href="#noivas">Noivas</a><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#metodo">Como funciona</a><a href="#depoimentos">Depoimentos</a><a href="#duvidas">Dúvidas</a></nav>
+  <a class="btn btn--light" href="#" target="_blank" rel="noopener" data-wa>Quero um orçamento</a>
+</div>
+
+<main id="topo">
+
+<!-- ================= TOPO ================= -->
+<section class="hero">
+  <div class="split">
+    <figure class="split__half hero__ph"><span class="ph-l">Foto de topo da noiva</span><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.28),rgba(0,0,0,.42))"></div></figure>
+  </div>
+  <div class="hero__brand">
+    <h1 class="hero__name">
+      <span class="sr-only">Paula Kalisak, maquiagem e penteado para noivas.</span>
+      <span aria-hidden="true">Paula Kalisak</span>
+    </h1>
+    <p class="hero__beauty">Maquiagem e Penteado para Noivas</p>
+  </div>
+</section>
+
+<!-- ================= FAIXA DE SELOS ================= -->
+<div class="brands">
+  <p class="brands__label">7 anos de carreira · Mais de 250 noivas · Guia Constance Zahn</p>
+  <div class="brands__track"><ul class="brands__list"><li>Guia Constance Zahn</li><li>Educadora Escola Madre</li><li>Vila Tramonti</li><li>Casa Marela Noivas</li><li>Guia Constance Zahn</li><li>Educadora Escola Madre</li><li>Vila Tramonti</li><li>Casa Marela Noivas</li><li>Guia Constance Zahn</li><li>Educadora Escola Madre</li><li>Vila Tramonti</li><li>Casa Marela Noivas</li></ul><ul class="brands__list" aria-hidden="true"><li>Guia Constance Zahn</li><li>Educadora Escola Madre</li><li>Vila Tramonti</li><li>Casa Marela Noivas</li><li>Guia Constance Zahn</li><li>Educadora Escola Madre</li><li>Vila Tramonti</li><li>Casa Marela Noivas</li><li>Guia Constance Zahn</li><li>Educadora Escola Madre</li><li>Vila Tramonti</li><li>Casa Marela Noivas</li></ul></div>
+</div>
+
+<!-- ================= PROMESSA ================= -->
+<section class="promise" id="problema">
+  <div class="wrap center">
+    <h2 class="title reveal">Sua melhor versão, ainda sendo você mesma.</h2>
+    <p class="muted reveal d1">Uma beleza pensada para que você se olhe no espelho no dia do seu casamento e se reconheça, só que mais linda do que nunca.</p>
+    <a class="btn reveal d2" href="#" target="_blank" rel="noopener" data-wa>Consultar disponibilidade da minha data</a>
+  </div>
+</section>
+
+<!-- ================= NOIVAS (portfólio) ================= -->
+<section class="gallery" id="noivas">
+  <div class="wrap">
+    <div class="gallery__head">
+      <span class="label reveal">Portfólio</span>
+      <h2 class="title reveal d1">Algumas das minhas noivas.</h2>
+    </div>
+    <div class="pf-grid reveal">
+      <figure class="pf pf--big"><div class="pf__img"><span class="ph-l">Foto da noiva 1</span></div><figcaption><span class="todo">Nome: legenda</span></figcaption></figure>
+      <figure class="pf"><div class="pf__img"><span class="ph-l">Foto da noiva 2</span></div><figcaption><span class="todo">Nome: legenda</span></figcaption></figure>
+      <figure class="pf"><div class="pf__img"><span class="ph-l">Foto da noiva 3</span></div><figcaption><span class="todo">Nome: legenda</span></figcaption></figure>
+      <figure class="pf"><div class="pf__img"><span class="ph-l">Foto da noiva 4</span></div><figcaption><span class="todo">Nome: legenda</span></figcaption></figure>
+      <figure class="pf"><div class="pf__img"><span class="ph-l">Foto da noiva 5</span></div><figcaption><span class="todo">Nome: legenda</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SOBRE ================= -->
+<section class="opening" id="sobre">
+  <div class="wrap opening__grid">
+    <div class="opening__left reveal">
+      <div class="ph"><span class="ph-l">Retrato da Paula</span></div>
+      <div class="seal seal--cz" role="img" aria-label="Guia de Fornecedores Constance Zahn">
+        <svg viewBox="0 0 120 120" aria-hidden="true">
+          <defs>
+            <path id="cz-top" d="M13,60 A47,47 0 0 1 107,60"/>
+            <path id="cz-bot" d="M9.5,60 A50.5,50.5 0 0 0 110.5,60"/>
+          </defs>
+          <circle cx="60" cy="60" r="58" fill="#fff"/>
+          <circle cx="60" cy="60" r="55.5" fill="none" stroke="#111" stroke-width=".9"/>
+          <circle cx="60" cy="60" r="40" fill="none" stroke="#111" stroke-width=".6"/>
+          <text font-family="Jost, Helvetica, Arial, sans-serif" font-weight="600" font-size="7.4" fill="#111" text-anchor="middle"><textPath href="#cz-top" startOffset="50%" textLength="134" lengthAdjust="spacing">GUIA DE FORNECEDORES CZ</textPath></text>
+          <text font-family="Jost, Helvetica, Arial, sans-serif" font-weight="600" font-size="7" fill="#111" text-anchor="middle"><textPath href="#cz-bot" startOffset="50%" textLength="112" lengthAdjust="spacing">CONSTANCEZAHN.COM</textPath></text>
+          <circle cx="8.6" cy="60" r="1.3" fill="#111"/><circle cx="111.4" cy="60" r="1.3" fill="#111"/>
+          <text x="60" y="71" font-family="'Cormorant Garamond', 'Times New Roman', serif" font-weight="600" font-size="34" fill="#111" text-anchor="middle" letter-spacing="-.5">CZ</text>
+        </svg>
+      </div>
+    </div>
+    <div class="opening__text">
+    <span class="label reveal">Sobre</span>
+    <h2 class="title reveal d1">Muito prazer, eu sou a Paula.</h2>
+    <p class="muted reveal d2">Há 7 anos eu embelezo noivas e já são mais de 250 histórias. Em todas elas eu acreditei na mesma coisa: maquiagem bonita não precisa transformar o rosto para causar impacto.</p>
+    <p class="muted reveal d2">O meu trabalho é olhar para você, para a sua essência, o seu vestido, o horário e o cenário da cerimônia, e traduzir tudo isso numa beleza que valoriza o que você já tem de mais bonito. Uma noiva com protagonismo, sem que nada apareça antes dela.</p>
+    <p class="muted reveal d2">Faço parte do guia de Constance Zahn e sou educadora na Escola Madre, onde formo outros profissionais da beleza.</p>
+    <ul class="facts opening__facts reveal d2">
+      <li><b>7 anos</b><small>de carreira</small></li>
+      <li><b>+250</b><small>noivas atendidas</small></li>
+      <li><b>Guia</b><small>Constance Zahn</small></li>
+      <li><b>Educadora</b><small>Escola Madre</small></li>
+    </ul>
+    <div class="opening__actions reveal d2">
+      <a class="btn" href="#" target="_blank" rel="noopener" data-wa>Quero um orçamento</a>
+    </div>
+    </div>
+    <div class="opening__right">
+      <div class="ph opening__r1 reveal d1"><span class="ph-l">Paula em ação 1</span></div>
+      <div class="ph opening__r2 reveal d2"><span class="ph-l">Paula em ação 2</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= RECONHECIMENTO ================= -->
+<section class="recog" id="reconhecimento">
+  <div class="wrap center">
+    <span class="label reveal">Reconhecimento</span>
+    <h2 class="title reveal d1">Guia Constance Zahn.</h2>
+    <p class="muted reveal d2">A Constance Zahn é referência em casamentos de alto padrão. Fazer parte do guia dela é um reconhecimento de quem vive casamento todos os dias.</p>
+    <a class="link reveal d2" href="https://www.constancezahn.com" target="_blank" rel="noopener">constancezahn.com</a>
+  </div>
+</section>
+
+<!-- ================= A BELEZA QUE EU FAÇO ================= -->
+<section class="services" id="beleza">
+  <img class="deco deco--pincel" src="fotos/deco-pincel-base.png" alt="" aria-hidden="true" loading="lazy">
+  <div class="wrap">
+    <div class="svc__intro">
+      <span class="label reveal">A beleza que eu faço</span>
+      <h2 class="title reveal d1">Natural, iluminada e atemporal.</h2>
+    </div>
+    <div class="svc-cards">
+      <article class="svc-card reveal"><span class="ph-l">Foto: pele</span>
+        <div class="svc-card__t"><h3>Pele luminosa</h3><p>Acabamento impecável, que fica bonito ao vivo, nas fotos e no filme, do começo ao fim da festa.</p></div></article>
+      <article class="svc-card reveal d1"><span class="ph-l">Foto: noiva</span>
+        <div class="svc-card__t"><h3>Para cada noiva</h3><p>Uma noiva minimalista, uma noiva clássica, um casamento à noite que pede um olhar mais marcado. Cada escolha conversa com quem você é e com a sua produção.</p></div></article>
+      <article class="svc-card reveal d2"><span class="ph-l">Foto: atemporal</span>
+        <div class="svc-card__t"><h3>Atemporal</h3><p>Uma beleza que você vai olhar nas fotos daqui a 20 anos e continuar amando.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVIÇOS ================= -->
+<section class="promise servicos-lista" id="servicos">
+  <div class="wrap">
+    <div class="center">
+      <span class="label reveal">Serviços</span>
+      <h2 class="title reveal d1">Do “sim” até a última música.</h2>
+    </div>
+    <div class="strat">
+      <div class="strat__item reveal"><h3>Maquiagem de noiva</h3><p>Pele, olhos, blush e boca em harmonia, criados a partir das suas referências e do seu estilo.</p></div>
+      <div class="strat__item reveal d1"><h3>Penteado de noiva</h3><p>Coque, cabelo solto, tranças. O penteado certo para o seu vestido, o seu véu ou a sua grinalda.</p></div>
+      <div class="strat__item reveal"><h3>Troca de penteado para a festa</h3><p>Depois da cerimônia, um novo penteado, como um rabo de cavalo ou uma trança, para você dançar e aproveitar sem se preocupar com nada.</p></div>
+      <div class="strat__item reveal d1"><h3>Equipe Paula Kalisak</h3><p>Beleza para madrinhas, mães e pessoas especiais, com o mesmo cuidado e o mesmo padrão. <span class="todo">[confirmar]</span></p></div>
+    </div>
+    <div class="center" style="margin-top:40px"><a class="btn reveal" href="#" target="_blank" rel="noopener" data-wa>Quero um orçamento</a></div>
+  </div>
+</section>
+
+<!-- ================= COMO FUNCIONA ================= -->
+<section class="how" id="metodo">
+  <img class="deco deco--blush1" src="fotos/deco-blush-1.webp" alt="" aria-hidden="true" loading="lazy">
+  <div class="wrap">
+    <div class="how__head">
+      <span class="label reveal">Como funciona</span>
+      <h2 class="title reveal d1">Simples, do primeiro contato ao grande dia.</h2>
+    </div>
+    <ol class="steps steps--4">
+      <li class="step reveal"><span class="step__num">01</span><h3>Consulta da data</h3><p>Você me chama no WhatsApp e confirmo se a sua data está disponível.</p></li>
+      <li class="step reveal d1"><span class="step__num">02</span><h3>Conversa e referências</h3><p>Falamos sobre você, o vestido, o local e o horário. <span class="todo">[+ teste de maquiagem, se houver]</span></p></li>
+      <li class="step reveal d2"><span class="step__num">03</span><h3>Reserva</h3><p>Com a data confirmada, ela fica garantida só para você.</p></li>
+      <li class="step reveal d3"><span class="step__num">04</span><h3>O grande dia</h3><p>Eu e a minha equipe cuidamos de tudo para você viver cada momento com calma.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ================= DEPOIMENTOS ================= -->
+<section class="testimonials" id="depoimentos">
+  <div class="wrap">
+    <div class="testi__head">
+      <span class="label reveal">Depoimentos</span>
+      <h2 class="title reveal d1">O que as minhas noivas dizem.</h2>
+    </div>
+    <div class="quotes reveal">
+      <figure class="quote"><blockquote><span class="todo">Trecho do feedback 1 (destaque “Feedback Noivas”)</span></blockquote><figcaption><span class="todo">Nome da noiva</span></figcaption></figure>
+      <figure class="quote"><blockquote><span class="todo">Trecho do feedback 2</span></blockquote><figcaption><span class="todo">Nome da noiva</span></figcaption></figure>
+      <figure class="quote"><blockquote><span class="todo">Trecho do feedback 3</span></blockquote><figcaption><span class="todo">Nome da noiva</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- Adesivo de base entre as seções -->
+<div class="sticker" aria-hidden="true"><img src="fotos/adesivo-base.png" alt="" loading="lazy"></div>
+
+<!-- ================= DÚVIDAS ================= -->
+<section class="faq" id="duvidas">
+  <img class="deco deco--espatula" src="fotos/deco-espatula.png" alt="" aria-hidden="true" loading="lazy">
+  <div class="wrap">
+    <div class="faq__head">
+      <h2 class="title reveal d1">Perguntas frequentes</h2>
+    </div>
+    <div class="faq__list reveal">
+      <details><summary>Com quanto tempo de antecedência devo reservar?</summary><p>As datas mais procuradas fecham cedo. O ideal é me chamar assim que tiver a data definida. <span class="todo">[confirmar prazo]</span></p></details>
+      <details><summary>Vocês atendem fora de <span class="todo">[cidade]</span>?</summary><p><span class="todo">[confirmar área de atendimento e destination wedding]</span></p></details>
+      <details><summary>Tem teste de maquiagem?</summary><p><span class="todo">[confirmar]</span></p></details>
+      <details><summary>A maquiagem dura a festa inteira?</summary><p>Sim. Os produtos e a técnica são escolhidos para durar da cerimônia até o fim da festa, com acabamento bonito nas fotos.</p></details>
+      <details><summary>Vocês atendem madrinhas e mães?</summary><p><span class="todo">[confirmar: equipe Paula Kalisak]</span></p></details>
+      <details><summary>Como faço para pedir um orçamento?</summary><p>É só clicar no botão abaixo e me mandar a data e o local do seu casamento pelo WhatsApp.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CHAMADA FINAL ================= -->
+<section class="soft soft--left final">
+  <img class="deco deco--blush2" src="fotos/deco-blush-2.webp" alt="" aria-hidden="true" loading="lazy">
+  <div class="wrap soft__inner">
+    <div class="soft__text">
+      <svg class="mono reveal" aria-hidden="true"><use href="#mono"/></svg>
+      <h2 class="reveal">O seu dia merece uma beleza que seja sua.</h2>
+      <p class="reveal d1">Me conta a data e o local do seu casamento, e eu te respondo com a disponibilidade e o orçamento.</p>
+      <a class="btn reveal d2" href="#" target="_blank" rel="noopener" data-wa>Falar com a Paula no WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= RODAPÉ ================= -->
+<footer>
+  <div class="wrap">
+    <svg class="mono" aria-hidden="true"><use href="#mono"/></svg>
+    <span class="brand__name">PAULA KALISAK</span>
+    <p class="footer__beauty">Maquiagem e Penteado para Noivas</p>
+    <small>© 2026 Paula Kalisak</small>
+  </div>
+</footer>
+
+<a class="wa-float" href="#" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp" data-wa>
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.04 21.5h-.01a9.4 9.4 0 0 1-4.8-1.31l-.34-.2-3.57.94.95-3.48-.22-.36a9.43 9.43 0 0 1-1.45-5.03c0-5.2 4.24-9.44 9.45-9.44a9.4 9.4 0 0 1 6.68 2.77 9.38 9.38 0 0 1 2.76 6.68c0 5.21-4.24 9.44-9.45 9.44zm8.04-17.48A11.3 11.3 0 0 0 12.04.7C5.77.7.67 5.8.67 12.07c0 2 .52 3.96 1.52 5.68L.57 23.7l6.1-1.6a11.34 11.34 0 0 0 5.37 1.37h.01c6.26 0 11.36-5.1 11.37-11.37 0-3.04-1.18-5.9-3.34-8.05z"/></svg>
+</a>
+
+<script>
+  /* WHATSAPP_NUMERO: só números com DDI e DDD, ex.: '5511999999999'. Vazio = botões ainda sem link. */
+  const WHATSAPP_NUMERO = '';
+  const WHATSAPP_MENSAGEM = 'Oi, Paula! Vim pelo seu site e quero consultar a disponibilidade da minha data de casamento.';
+  document.documentElement.classList.add('js');
+  if (WHATSAPP_NUMERO) {
+    const url = 'https://wa.me/' + WHATSAPP_NUMERO + '?text=' + encodeURIComponent(WHATSAPP_MENSAGEM);
+    document.querySelectorAll('[data-wa]').forEach(a => a.href = url);
+  }
+  const topbar = document.getElementById('topbar');
+  const hero0 = document.querySelector('.hero');
+  const onScroll = () => topbar.classList.toggle('is-solid', window.scrollY > (hero0.offsetHeight - 90));
+  onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
+  const menu = document.getElementById('menu'), burger = document.getElementById('burger');
+  const setMenu = open => { menu.hidden = !open; burger.setAttribute('aria-expanded', String(open)); document.body.style.overflow = open ? 'hidden' : ''; };
+  burger.addEventListener('click', () => setMenu(true));
+  document.getElementById('menu-close').addEventListener('click', () => setMenu(false));
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
+  const reveals = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); } }), { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    reveals.forEach(el => io.observe(el));
+  } else { reveals.forEach(el => el.classList.add('is-in')); }
+</script>
+</body>
+</html>
