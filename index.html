@@ -683,7 +683,7 @@
 <!-- ================= TOPO ================= -->
 <section class="hero">
   <div class="split">
-    <figure class="split__half hero__ph"><img src="fotos/hero-noiva.webp" alt="Noiva de cabelo ondulado e brinco de pérolas, olhando por cima do ombro" style="object-position:50% 28%"><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.28),rgba(0,0,0,.42))"></div></figure>
+    <figure class="split__half hero__ph"><video src="video/hero.mp4" poster="video/hero-poster.jpg" autoplay muted loop playsinline preload="auto" aria-hidden="true" style="object-position:50% 22%"></video><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.28),rgba(0,0,0,.42))"></div></figure>
   </div>
   <div class="hero__brand">
     <h1 class="hero__name">
@@ -720,7 +720,7 @@
       <figure class="pf pf--big"><div class="pf__img"><img src="fotos/noiva-01.webp" alt="Noiva morena com cravos brancos diante do rosto" loading="lazy" style="object-position:50% 35%"></div><figcaption><span class="todo">Nome: legenda</span></figcaption></figure>
       <figure class="pf"><div class="pf__img"><img src="fotos/noiva-02.webp" alt="Noiva loira com brinco de flor e pérola, pele iluminada" loading="lazy" style="object-position:50% 35%"></div><figcaption><span class="todo">Nome: legenda</span></figcaption></figure>
       <figure class="pf"><div class="pf__img"><img src="fotos/noiva-03.webp" alt="Noiva de cabelo preso com flor de cristal na orelha, olhos fechados" loading="lazy" style="object-position:55% 35%"></div><figcaption><span class="todo">Nome: legenda</span></figcaption></figure>
-      <figure class="pf"><div class="pf__img"><img src="fotos/noiva-04.webp" alt="Noiva loira com vestido de organza em babados" loading="lazy" style="object-position:50% 30%"></div><figcaption><span class="todo">Nome: legenda</span></figcaption></figure>
+      <figure class="pf"><div class="pf__img"><img src="fotos/hero-noiva.webp" alt="Noiva de cabelo ondulado e brinco de pérolas, olhando por cima do ombro" loading="lazy" style="object-position:50% 30%"></div><figcaption><span class="todo">Nome: legenda</span></figcaption></figure>
       <figure class="pf"><div class="pf__img"><img src="fotos/noiva-05.webp" alt="Noiva ruiva de sardas, com brinco de pérola e vestido de gola alta" loading="lazy" style="object-position:50% 30%"></div><figcaption><span class="todo">Nome: legenda</span></figcaption></figure>
     </div>
     <div class="pf-more reveal">
@@ -919,6 +919,11 @@
   if (WHATSAPP_NUMERO) {
     const url = 'https://wa.me/' + WHATSAPP_NUMERO + '?text=' + encodeURIComponent(WHATSAPP_MENSAGEM);
     document.querySelectorAll('[data-wa]').forEach(a => a.href = url);
+  }
+  const hv = document.querySelector('.split video');
+  if (hv) {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { hv.removeAttribute('autoplay'); hv.pause(); }
+    else { const tocar = () => { hv.muted = true; if (hv.paused) hv.play().catch(() => {}); }; tocar(); ['touchstart','scroll','click'].forEach(ev => window.addEventListener(ev, tocar, { once: true, passive: true })); }
   }
   const topbar = document.getElementById('topbar');
   const hero0 = document.querySelector('.hero');
