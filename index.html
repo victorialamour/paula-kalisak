@@ -649,12 +649,9 @@
   .vogue__grid img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
   .vogue__credit{margin-top:14px;font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--gray)}
   @media (min-width:700px){.vogue__grid{gap:14px}}
-  /* Vídeo vertical: no celular preenche a tela; no desktop aparece inteiro, com o fundo desfocado nas laterais */
-  .split__half .hero__bg{display:none}
-  @media (min-width:900px){
-    .split__half .hero__bg{display:block;filter:blur(28px) brightness(.7);transform:scale(1.25)}
-    .split__half .hero__main{object-fit:contain;object-position:50% 50% !important}
-  }
+  /* Vídeo vertical em tela cheia; no desktop o corte mantém o rosto à vista */
+  .split__half .hero__main{object-position:50% 10% !important}
+  @media (max-width:899px){.split__half .hero__main{object-position:50% 22% !important}}
 </style>
 </head>
 <body>
@@ -689,7 +686,7 @@
 <!-- ================= TOPO ================= -->
 <section class="hero">
   <div class="split">
-    <figure class="split__half hero__ph"><video class="hero__bg" src="video/hero.mp4" poster="video/hero-poster.jpg" autoplay muted loop playsinline preload="auto" aria-hidden="true" tabindex="-1"></video><video class="hero__main" src="video/hero.mp4" poster="video/hero-poster.jpg" autoplay muted loop playsinline preload="auto" aria-hidden="true" style="object-position:50% 22%"></video><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.28),rgba(0,0,0,.42))"></div></figure>
+    <figure class="split__half hero__ph"><video class="hero__main" src="video/hero.mp4" poster="video/hero-poster.jpg" autoplay muted loop playsinline preload="auto" aria-hidden="true" style="object-position:50% 22%"></video><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.28),rgba(0,0,0,.42))"></div></figure>
   </div>
   <div class="hero__brand">
     <h1 class="hero__name">
